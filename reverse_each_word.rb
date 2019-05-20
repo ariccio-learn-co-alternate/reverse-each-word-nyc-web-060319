@@ -4,8 +4,6 @@ def reverse_each_word(str)
     word = word.reverse()
   end
   fmt_str = ""
-  split_str.each do |word|
-    fmt_str += (word + "")
-  end
+
   fmt_str
 end
