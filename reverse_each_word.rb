@@ -5,5 +5,5 @@ def reverse_each_word(str)
   }
   fmt_str = ""
 
-  fmt_str
+  fmt_str = split_str
 end
