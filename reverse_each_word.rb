@@ -5,7 +5,7 @@ def reverse_each_word(str)
   end
   fmt_str = ""
   split_str.each do |word|
-    fmt_str += word
+    fmt_str += (word + " ") 
   end
   fmt_str
 end
